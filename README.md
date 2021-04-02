@@ -8,4 +8,4 @@ na parte de data dos casos de COVID.
 
 Estrutura final do Projeto:
 
-![Desenho do fluxo](https://ibb.co/VVpJxf0)
+![Desenho do fluxo](https://i.ibb.co/SN75cFD/Diagrama-em-branco.jpg)
