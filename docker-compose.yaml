@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+
+  mssqlserver-ssis:
+    build: './'
+    restart: always
+    container_name: mssqlserver-is
+    ports:
+      - "1433:1433"

@@ -1,0 +1,34 @@
+CLI Commands:
+
+- docker run -it --rm -p 1433:1433 -e sa_password=12345 -e ACCEPT_EULA=Y --name sqlserverContainer ubuntu:16.04 /bin/bash
+
+- apt-get update && apt-get install -y curl wget sudo software-properties-common apt-transport-https 
+
+- rm -rf /var/lib/apt/lists/*
+
+- curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add - && add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2019.list)"
+
+- apt-get update && apt-get -y install mssql-server-is 
+
+- echo "[TELEMETRY]\nenabled = F" > /var/opt/ssis/ssis.conf
+
+- SSIS_PID=Express ACCEPT_EULA=Y /opt/ssis/bin/ssis-conf -n setup;
+
+
+CLI to start dockerfile:
+
+- docker build -t mysqlcontainer .
+
+- docker run -it --rm -p 1433:1433 -e sa_password=12345 -e ACCEPT_EULA=Y --name sqlserverContainer mysqlcontainer /bin/bash
+
+CLI to start docker-compose:
+
+- docker-compose up 
+
+Command to start dtsx:
+- dtexec /F \Package.dtsx
+
+SSIS in Docker is not yet supported?
+
+- https://github.com/MicrosoftDocs/sql-docs/issues/2927
+- https://github.com/microsoft/mssql-docker/issues/213

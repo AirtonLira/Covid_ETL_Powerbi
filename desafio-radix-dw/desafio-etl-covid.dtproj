@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{4a13d809-2301-4b15-9c43-e880bec06f4d}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">desafio-radix-dw</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">desafio-etl-covid</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GSJ8VP1</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABUjQY6DfJ0G+BJe5fZX7HAAAAAACAAAAAAAQZgAAAAEAACAAAAAwTMq+GdDr9Jq5ZEb3ZqQA5rNGTK1z857bSvxWzFB11QAAAAAOgAAAAAIAACAAAAAFQDjv8tih1gV/iDRGmeRlpeBKSHWM/Nfbrt5+kIofkZAAAABVyaUMpeqVA7520jjMG4Bq7ilpBtIAJe04qORCsj9yKAgX/bFsb3tJ+xX4WnX1PN0I3rAtL/gX8WFSYZ9ghGfS7k4ag+mcv/Q8DD1Ini3l0yDHT48YQkVirugcWc3XY/YZYNiIGn4E15s6ca4VmBldADu17WvKnh+LW5gjN8KfmpsAFdWtro8u2jP9qXynsk1AAAAAbJiUwsCE4rRk4Op7xKfa8g8I4ZOC+sGUL4ppJX8XEiHzkU6Myp2sWuNtgls0Og4ykB96C4fwLUYhebYoz9AJ7g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABUjQY6DfJ0G+BJe5fZX7HAAAAAACAAAAAAAQZgAAAAEAACAAAADxHwq4ZB7Li1a4P8xNH4sg+lbyyeF4a+J1n6bTJuCQmwAAAAAOgAAAAAIAACAAAABlm/NgNKh+ZHEl/M0aEHZOW8LB0DJSdG4nEYPtW7auwZAAAABkG7X4DUG9KORpNXjGLKUCO/sIWoJZBwtp+XVgWKNXsTV4Wwp8YIAV6Ayg44vXk0nHnpjh2MDR3N9ydMIFVBOL9Pkmk757GLaqTxwNR812MGGgxIbiHm5Yvoj6+N/SNxZ6kvgScx4GWagdU1UpikeTOtY7S/fz+1xdytFnJLRkrAza0hspQL77ynSFugtcGMlAAAAA22m4bO4L+EDYjmSZvAIVYef7Y7mp10VCQv9DCGmILtBkjwAOWiT7CzEiRyKzzfd5dvxxgBnhSAN6Mw4ESzC6ew==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -316,8 +316,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -497,8 +495,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -678,8 +674,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
